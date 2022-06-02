@@ -1,0 +1,14 @@
+body{background: url(/asset/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+
+
+
+}
+
+.navbar{transparent !important
+    position: sticky;
+    z-index: 100;
+}
+
