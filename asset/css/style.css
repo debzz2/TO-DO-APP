@@ -2,20 +2,20 @@ body{background: url(/asset/img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    position: absolute;
-    transparent !important;
-
 }
 
-.navbar{transparent !important;
+.navbar{
     position: sticky;
     z-index: 100;
-    
+    width: 100%;
 }
 
-.card{background: rgba(173, 216, 230, 0.4);
+.card{
+    background: rgba(173, 216, 230, 0.4);
 }
 
-.card ul a{float: right;
+.card ul a{
+    float: right;
+    margin: 0.3rem;
 
 }
