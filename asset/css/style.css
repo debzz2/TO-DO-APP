@@ -2,13 +2,20 @@ body{background: url(/asset/img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-
-
+    position: absolute;
+    transparent !important;
 
 }
 
-.navbar{transparent !important
+.navbar{transparent !important;
     position: sticky;
     z-index: 100;
+    
 }
 
+.card{background: rgba(173, 216, 230, 0.4);
+}
+
+.card ul a{float: right;
+
+}
